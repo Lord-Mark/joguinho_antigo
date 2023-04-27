@@ -1,0 +1,25 @@
+Integrantes do grupo:
+
+Igor Deon
+Lucas Seidy
+Luan Mark
+
+
+Obs: Feito para linux. 
+
+
+
+para compilar o jogo use: gcc jogo.c -lncuses -lpthread -o run
+para compilar o builder use: gcc builder.c -lncuses -o builder_run
+
+
+
+Bibliotecas usadas (considerando builder e jogo): 
+
+<stdio.h>
+<stdlib.h>
+<string.h>
+<unistd.h>
+<pthread.h>
+<ncurses.h>
+"models.h"    	(arquivo na pasta do jogo)
